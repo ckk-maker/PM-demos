@@ -2,4 +2,7 @@
 import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+    site:'https://ckk-maker.github.io/',
+    base:'/my-repo',
+});
